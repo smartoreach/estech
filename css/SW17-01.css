@@ -1,0 +1,47 @@
+#SW17-01 {
+  padding: 20px 0;
+}
+#SW17-01 > h2 {
+  background-color:  #fff;
+  box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.1),
+              inset -3px -3px 4px rgba(255, 255, 255, 0.6);
+  line-height: 2;
+  padding-left: 15px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  color: #444;
+  word-spacing: 0.3rem;
+  color:rgb(44,63,78);
+}
+.SW17-01-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 30px;
+}
+.SW17-01-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #fff;
+}
+.SW17-01-card img {
+  object-fit: contain;
+}
+.SW17-01-card img {
+  width: 70%;
+}
+
+@media (max-width:576px) {
+  #SW17-01 > h2 {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+  }
+  .SW17-01-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+}

@@ -1,0 +1,72 @@
+#SW18-01 {
+  padding: 20px 0;
+}
+#SW18-01 > h2 {
+  background-color:  #eee;
+  box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.1),
+              inset -3px -3px 4px rgba(255, 255, 255, 0.6);
+  line-height: 2;
+  padding-left: 15px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  word-spacing: 0.3rem;
+  color:rgb(44,63,78);
+  /* color: #444; */
+}
+.SW18-01-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+.SW18-01-card {
+  position: relative;
+  border: 5px solid rgb(230, 231, 235);
+  height: 220px;
+  overflow: hidden;
+}
+.SW18-01-card img {
+  width: 100%;
+  object-fit: cover;
+}
+.SW18-01-card h3 {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: rgba(0,0,0,0.2);
+  transition: 0.3s ease;
+}
+.SW18-01-card h3:hover {
+  background-color: rgba(0,0,0,0.4);
+
+}
+.SW18-01-card h3 {
+   background-color: rgba(0,0,0,0.4);
+ }
+ .SW18-01-card h3:hover {
+  background-color: rgba(0,0,0,0.6);
+  }
+
+@media (max-width:576px) {
+  #SW18-01 > h2 {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+  }
+  .SW18-01-card {
+    height: 200px;
+  }
+  .SW18-01-card h3 {
+    text-align: center;
+  }
+  .SW18-01-card h3 {
+    font-size: 1.4rem;
+  }
+}

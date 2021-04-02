@@ -1,0 +1,52 @@
+#SW11-01 {
+  padding: 40px 0;
+}
+.SW11-01-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+.SW11-01-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1),
+              -3px -3px 4px rgba(255, 255, 255, 0.6);
+}
+.SW11-01-img {
+  width: 20%;
+  padding: 10px;
+}
+.SW11-01-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.SW11-01-text {
+  width: 70%;
+}
+.SW11-01-text h3 {
+  color: rgb(44,63,78);
+  font-size: 1.2rem;
+}
+.SW11-01-text p {
+  color: #888;
+}
+
+
+@media (max-width:576px) {
+  .SW11-01-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  SW11-01-text h3 {
+    font-size: 1rem;
+  }
+  .SW11-01-text p {
+    font-size: 0.8rem;
+  }
+  .SW11-01-card  {
+    padding: 10px 10px;
+  }
+}

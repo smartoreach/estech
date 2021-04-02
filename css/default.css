@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  display: block;
+font-size: 1.5em;
+margin-top: 0.83em;
+margin-bottom: 0.83em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+}
+
+h3 {
+  display: block;
+font-size: 1.17em;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+}
+
+h4 {
+  display: block;
+margin-top: 1.33em;
+margin-bottom: 1.33em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+}
+
+h5 {
+  display: block;
+font-size: .83em;
+margin-top: 1.67em;
+margin-bottom: 1.67em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+}
+
+h6 {
+  display: block;
+font-size: .67em;
+margin-top: 2.33em;
+margin-bottom: 2.33em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+}
+
+/* tables */
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit
+}
+
+/* for tables without table section elements (can happen with XHTML or dynamically created tables) */
+table > tr {
+    vertical-align: middle;
+}
+
+col {
+    display: table-column
+}
+
+colgroup {
+    display: table-column-group
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit
+}
+
+th {
+    font-weight: bold
+}
+
+caption {
+    display: table-caption;
+    text-align: -webkit-center
+}
+
+/* lists */
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1__qem;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1__qem;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul ul, ol ul {
+    list-style-type: circle
+}
+
+ol ol ul, ol ul ul, ul ol ul, ul ul ul {
+    list-style-type: square
+}
+
+dd {
+    display: block;
+    -webkit-margin-start: 40px
+}
+
+dl {
+    display: block;
+    -webkit-margin-before: 1__qem;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+dt {
+    display: block
+}
+
+ol ul, ul ol, ul ul, ol ol {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0
+}
+
+/* form elements */
+
+form {
+    display: block;
+    margin-top: 0__qem;
+}
+
+label {
+    cursor: default;
+}
+
+legend {
+    display: block;
+    -webkit-padding-start: 2px;
+    -webkit-padding-end: 2px;
+    border: none
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    border: 2px groove ThreeDFace;
+    min-width: -webkit-min-content;
+}
+
+button {
+    -webkit-appearance: button;
+}
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+}
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.global-chem-service {
+    border-collapse: collapse;
+}
+
+.global-chem-service td, .global-chem-service th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.global-chem-service tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.global-chem-service tr:hover {background-color: white;}
+
+.global-chem-service th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(6,3,103);
+    color: white;
+  }
+
+  
+

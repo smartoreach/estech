@@ -1,0 +1,148 @@
+
+#SW23-01 * {
+}
+
+
+#SW23-01 {
+  padding: 40px 10%;
+  background-color: rgb(248, 248, 248);
+  padding-bottom: 60px;
+}
+#SW23-01 > h2 {
+  color: rgb(44,63,78);
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0;
+}
+#SW23-01 > p {
+  color: rgb(184,201,214);
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.SW23-01-grid {
+  /* padding-top: 40px; */
+  max-width: 1320px;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.SW23-01-grid > a {
+  text-decoration: none;
+}
+.SW23-01-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(248, 248, 248);
+box-shadow:  6px 6px 12px #ced1d4,
+             -6px -6px 12px #ffffff;
+  padding: 10px;
+}
+
+.SW23-01-img {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.SW23-01-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.SW23-01-card>h3 {
+  text-align: center;
+  color: rgb(42, 29, 138);
+  margin-bottom: 0;
+  font-size: 1.4rem;
+}
+.SW23-01-card>p {
+  text-align: center;
+  color: #888;
+  margin-top: 10px;
+}
+.SW23-01-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.SW23-01-btn a {
+  text-decoration: none;
+  color: #444;
+  border-radius: 50px;
+  padding: 5px 15px;
+  background-color: #DFE6EC;
+  font-weight: bold;
+}
+.SW23-01-container {
+  padding-left: 30px;
+}
+.SW23-01-container > h2 {
+  display: none;
+}
+.SW23-01-logo {
+  margin:auto;
+  margin-bottom: 0;
+}
+.SW23-01-logo img {
+  width: 25%;
+  object-fit: contain;
+  float: right;
+  margin: auto;
+}
+.SW23-01-logo-2 {
+  margin:auto;
+  margin-bottom: 0;
+}
+.SW23-01-logo-2 img {
+  width: 15%;
+  object-fit: contain;
+  float: right;
+  margin: auto;
+}
+@media (max-width:960px) {
+  .SW23-01-grid  {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+@media (max-width:576px) {
+  #SW23-01 > h2 {
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0;
+  }
+  #SW23-01 > p {
+    color: rgb(184,201,214);
+    font-size: 1.1rem;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .SW23-01-card>h3 {
+    font-size: 1.1rem;
+  }
+  .SW23-01-card>p {
+    font-size: 0.8rem;
+  }
+  .SW23-01-container {
+    padding: 0 5%;
+  }
+  .SW23-01-container > h2 {
+    display: block;
+    font-size: 1.2rem;
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .SW23-01-grid  {
+    grid-template-columns: 1fr;
+  }
+}

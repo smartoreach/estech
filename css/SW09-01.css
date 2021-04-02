@@ -1,0 +1,73 @@
+
+
+#SW09-01 {
+  padding: 80px 7%;
+  background: rgb(248,248,248);
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 30px;
+  margin-top: 80px;
+}
+
+.SW09-01-nav {
+
+}
+.SW09-01-nav-card {
+  width: 100%;
+  border-radius: 20px;
+  /* border: 1px solid #444; */
+  overflow: hidden;
+  background: rgb(248,248,248);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1),
+              -3px -3px 6px rgba(255, 255, 255, 1);
+}
+.SW09-01-nav-title {
+
+}
+.SW09-01-nav-title h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5px 10px 0 10px;
+  color: rgb(180,180,180);
+  letter-spacing: 0.2rem;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+.SW09-01-nav-card ul {
+  list-style: none;
+  padding: 10px;
+  margin-top: 0;
+}
+.SW09-01-nav-card ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.SW09-01-nav-card ul li:first-child {
+  border-top: 1px solid #ddd;
+
+}
+.SW09-01-nav-card ul a {
+  text-decoration: none;
+  color: #444;
+}
+
+.SW09-01-nav {
+  position: relative;
+}
+.SW09-01-nav-card {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 100px;
+  /* width: 16%; */
+}
+.SW09-01-nav-card li:hover {
+  background-color: white;
+}
+@media (max-width:576px) {
+  .SW09-01-nav {
+    display: none;
+  }
+  #SW09-01 {
+    grid-template-columns: 100%;
+  }
+}

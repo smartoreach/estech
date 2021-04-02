@@ -1,0 +1,47 @@
+#SW31-01 {
+  margin-top: 80px;
+  padding: 40px 8%;
+}
+#SW31-01>h2 {
+  color: rgb(68,68,68);
+  letter-spacing: 4px;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.SW31-01-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+  grid-gap:40px;
+}
+.SW31-01-img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.SW31-01-img img {
+  width: 70%;
+  border: 1px solid rgb(220,220,220);
+}
+.SW31-01-card a {
+  text-decoration: none;
+  border: 1px solid rgb(0, 176, 80);
+  color: rgb(0, 176, 80);
+  padding: 10px 20px;
+  font-weight: bold;
+
+}
+.SW31-01-card h3 {
+  min-height: 4.5rem;
+  width: 70%;
+  color: rgb(69, 69, 69);
+}
+.SW31-01-card a:hover {
+  background: rgb(0, 176, 80);
+  color: #fff;
+}
+.SW31-01-card > img {
+  width: 20px;
+  object-fit: contain;
+  margin-left: 5px;
+  margin-bottom: -10px;
+}

@@ -1,0 +1,72 @@
+#SW13-01 {
+  padding: 20px 0;
+}
+#SW13-01 > h2 {
+  background-color:  rgb(226, 240, 217);
+  box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.1),
+              inset -3px -3px 4px rgba(255, 255, 255, 0.6);
+  line-height: 2;
+  padding-left: 15px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  word-spacing: 0.3rem;
+  color:rgb(44,63,78);
+}
+.SW13-01-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.SW13-01-card {
+  display: grid;
+  grid-template-rows: auto auto auto;
+
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1),
+              -3px -3px 4px rgba(255, 255, 255, 0.6);
+}
+.SW13-01-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SW13-01-img img {
+  width: 18%;
+  object-fit: contain;
+}
+.SW13-01-card > h3 {
+  text-align: center;
+  color: #000;
+  /* background-color: #888; */
+  background-color:rgb(226, 240, 217);
+  line-height: 2;
+  margin-left: -1px;
+  font-size: 1.2rem;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1),
+              -3px -3px 4px rgba(255, 255, 255, 0.6);
+}
+.SW13-01-card > p {
+  text-align: center;
+  color: #888;
+  margin-top: 0;
+}
+
+
+@media (max-width:576px) {
+  #SW13-01 > h2 {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+  }
+  .SW13-01-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .SW13-01-card > h3 {
+    font-size: 1.1rem;
+  }
+  .SW13-01-card > p {
+    font-size: 1rem;
+  }
+}

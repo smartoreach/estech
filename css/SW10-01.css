@@ -1,0 +1,29 @@
+#SW10-01 {
+
+}
+.SW10-01-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.SW10-01-img img {
+  width: 20%;
+  object-fit: contain;
+
+}
+.SW10-01-about-text p {
+  color: #888;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+
+@media (max-width:576px) {
+  .SW10-01-img img {
+    width: 60%;
+  }
+  .SW10-01-about-text p {
+    font-size: 0.8rem;
+  }
+}
